@@ -1,0 +1,182 @@
+@media(max-width:767px) {
+  .container {
+      display: flex;
+      flex-wrap: wrap;
+  }
+  .content {
+      order: 1;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .float-right-sm {
+    float: right;
+  }
+}
+
+:root {
+  --font: "Helvetica Neue", Helvetica, "Inter", sans-serif;
+  --body-color: #637381;
+  --heading-color: #012169;
+  --primary-color: #0056B9;
+  --white: #ffffff;
+}
+
+body {
+  font-family: var(--font);
+  font-weight: normal;
+  font-style: normal;
+  color: var(--body-color);
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+a,
+a:focus,
+input:focus,
+textarea:focus,
+button:focus,
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--heading-color);
+}
+
+a {
+  color: var(--primary-color);
+}
+
+ul,
+ol {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+p {
+  color: var(--body-color);
+}
+
+/*===== Button Style =====*/
+.button {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 8px;
+  padding: 15px 25px;
+  color: var(--white);
+  background: var(--primary-color);
+}
+/*===== Button Style End =====*/
+
+.header {
+  background: var(--primary-color);
+  padding-top: 62px;
+}
+
+.headerTitle {
+  color: var(--white);
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 60px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.headerDescription {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: var(--white);
+  opacity: 0.82;
+  max-width: 720px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.headerButtons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.button {
+  margin-bottom: 26px;
+}
+
+.whiteButton {
+  background: var(--white);
+  color: var(--heading-color);
+}
+
+.title{
+  max-width: 620px;
+  margin-bottom: 70px;
+  font-size: 42px;
+  line-height: 55px;
+  text-transform: capitalize;
+  color: var(--heading-color);
+  margin-bottom: 20px;
+}
+
+.socialsList {
+  margin-bottom: 20px;
+}
+
+/* ===== About CSS ===== */
+.socials {
+  padding: 50px;
+}
+
+.socialsContent {
+  max-width: 600px;
+}
+
+/* ===== Contact CSS ===== */
+.contact {
+  padding: 40px;
+}
+
+/* ===== Footer CSS ===== */
+.footer {
+  background: var(--heading-color);
+  padding-top: 50px;
+  padding: 40px;
+  overflow: hidden;
+}
+
+.footerLogo {
+  max-width: 160px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.footerLogo img {
+  width: 100%;
+}
