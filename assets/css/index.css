@@ -20,13 +20,12 @@
   --body-color: #637381;
   --heading-color: #012169;
   --primary-color: #0056B9;
+  --secondary-color: #C8102E;
   --white: #ffffff;
 }
 
 body {
   font-family: var(--font);
-  font-weight: normal;
-  font-style: normal;
   color: var(--body-color);
   overflow-x: hidden;
 }
@@ -42,8 +41,7 @@ a,
 a:focus,
 input:focus,
 textarea:focus,
-button:focus,
-.navbar-toggler:focus {
+button:focus {
   text-decoration: none;
   outline: none;
   -webkit-box-shadow: none;
@@ -59,6 +57,11 @@ h6 {
   color: var(--heading-color);
 }
 
+h1 {
+  font-family: "nasalization", sans-serif;
+  font-weight: 400;
+}
+
 a {
   color: var(--primary-color);
 }
@@ -72,6 +75,12 @@ ol {
 
 p {
   color: var(--body-color);
+}
+
+i {
+  font-size: 30px;
+  opacity: 0.9;
+  color: var(--primary-color);
 }
 
 /*===== Button Style =====*/
@@ -96,7 +105,7 @@ p {
 .headerTitle {
   color: var(--white);
   font-weight: 700;
-  font-size: 45px;
+  font-size: 60px;
   line-height: 60px;
   text-align: center;
   margin-bottom: 20px;
@@ -131,36 +140,49 @@ p {
 }
 
 .whiteButton {
+  font-size: 20px;
   background: var(--white);
-  color: var(--heading-color);
+  color: var(--secondary-color);
 }
+
+/* Header End */
 
 .title{
-  max-width: 620px;
+  max-width: 640px;
   margin-bottom: 70px;
   font-size: 42px;
-  line-height: 55px;
-  text-transform: capitalize;
+  line-height: 48px;
   color: var(--heading-color);
   margin-bottom: 20px;
 }
 
-.socialsList {
-  margin-bottom: 20px;
+.topics {
+  margin-top: 50px;
+  margin-left: 50px;
 }
 
-/* ===== About CSS ===== */
+.topicsList {
+  font-size: 26px;
+}
+
 .socials {
-  padding: 50px;
-}
-
-.socialsContent {
+  margin-top: 50px;
+  margin-left: 50px;
   max-width: 600px;
 }
 
-/* ===== Contact CSS ===== */
+.socialsList {
+  margin-bottom: 10px;
+}
+
+.otherSocials {
+  color: var(--secondary-color)
+}
+
 .contact {
-  padding: 40px;
+  margin-top: 50px;
+  margin-left: 50px;
+  max-width: 600px;
 }
 
 /* ===== Footer CSS ===== */
