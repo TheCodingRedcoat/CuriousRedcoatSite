@@ -59,7 +59,12 @@ h6 {
 
 h1 {
   font-family: "nasalization", sans-serif;
-  font-weight: 400;
+  max-width: 640px;
+  margin-bottom: 70px;
+  font-size: 46px;
+  line-height: 48px;
+  color: var(--heading-color);
+  margin-bottom: 20px;
 }
 
 a {
@@ -73,13 +78,23 @@ ol {
   list-style-type: none;
 }
 
+li {
+  font-family: var(--font);
+  max-width: 640px;
+  margin-bottom: 70px;
+  font-size: 32px;
+  line-height: 48px;
+  color: var(--heading-color);
+  margin-bottom: 20px;
+  list-style-type: none;
+}
+
 p {
   color: var(--body-color);
 }
 
 i {
-  font-size: 30px;
-  opacity: 0.9;
+  font-family: "Helvetica Neue", sans-serif;
   color: var(--primary-color);
 }
 
@@ -109,6 +124,7 @@ i {
   line-height: 60px;
   text-align: center;
   margin-bottom: 20px;
+  font-family: "nasalization", sans-serif;
 }
 
 .headerDescription {
@@ -147,13 +163,8 @@ i {
 
 /* Header End */
 
-.title{
-  max-width: 640px;
-  margin-bottom: 70px;
-  font-size: 42px;
-  line-height: 48px;
-  color: var(--heading-color);
-  margin-bottom: 20px;
+.ongoing {
+  margin-left: 20px;
 }
 
 .topics {
@@ -162,7 +173,13 @@ i {
 }
 
 .topicsList {
+  margin-top: 20px;
   font-size: 26px;
+  max-width: 400px; 
+}
+
+.topicSubject {
+  margin-bottom: 20px;
 }
 
 .socials {
@@ -171,17 +188,21 @@ i {
   max-width: 600px;
 }
 
-.socialsList {
-  margin-bottom: 10px;
+.socialsAlpha {
+  margin-bottom: 36px;
 }
 
-.otherSocials {
+.socialsBeta {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 10px;
   color: var(--secondary-color)
 }
 
 .contact {
   margin-top: 50px;
   margin-left: 50px;
+  margin-bottom: 50px;
   max-width: 600px;
 }
 
