@@ -8,7 +8,13 @@
   }
   .mailIcon {
     display: none;
-}
+  }
+  .socials{
+    max-width: 100vw;
+  }
+  .long{
+    font-size: 95vw;
+  }
 }
 
 :root {
