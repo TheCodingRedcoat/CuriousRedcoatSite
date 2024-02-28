@@ -8,13 +8,6 @@
   }
 }
 
-
-@media (max-width: 768px) {
-  .float-right-sm {
-    float: right;
-  }
-}
-
 :root {
   --font: "Helvetica Neue", Helvetica, "Inter", sans-serif;
   --body-color: #637381;
@@ -59,9 +52,8 @@ h6 {
 
 h1 {
   font-family: "nasalization", sans-serif;
-  max-width: 640px;
   margin-bottom: 70px;
-  font-size: 46px;
+  font-size: 56px;
   line-height: 48px;
   color: var(--heading-color);
   margin-bottom: 20px;
@@ -80,8 +72,6 @@ ol {
 
 li {
   font-family: var(--font);
-  max-width: 640px;
-  margin-bottom: 70px;
   font-size: 32px;
   line-height: 48px;
   color: var(--heading-color);
@@ -114,13 +104,13 @@ i {
 
 .header {
   background: var(--primary-color);
-  padding-top: 62px;
+  padding-top: 64px;
 }
 
 .headerTitle {
   color: var(--white);
   font-weight: 700;
-  font-size: 60px;
+  font-size: 72px;
   line-height: 60px;
   text-align: center;
   margin-bottom: 20px;
@@ -164,18 +154,19 @@ i {
 /* Header End */
 
 .ongoing {
-  margin-left: 20px;
+  margin-left: 2vw;
+  margin-top: 3vw;
 }
 
 .topics {
   margin-top: 50px;
-  margin-left: 50px;
+  margin-left: 4vw;
 }
 
 .topicsList {
   margin-top: 20px;
   font-size: 26px;
-  max-width: 400px; 
+  margin-left: 2vw;
 }
 
 .topicSubject {
@@ -184,12 +175,13 @@ i {
 
 .socials {
   margin-top: 50px;
-  margin-left: 50px;
+  margin-left: 4vw;
   max-width: 600px;
 }
 
 .socialsAlpha {
   margin-bottom: 36px;
+  margin-left: 2vw;
 }
 
 .socialsBeta {
@@ -201,9 +193,8 @@ i {
 
 .contact {
   margin-top: 50px;
-  margin-left: 50px;
+  margin-left: 4vw;
   margin-bottom: 50px;
-  max-width: 600px;
 }
 
 /* ===== Footer CSS ===== */
