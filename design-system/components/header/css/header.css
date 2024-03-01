@@ -174,9 +174,4 @@ nav .badge {
   nav ul li a.wrapper {
     display: flex;
   }
-
-  nav .badge {
-    margin-right: 0;
-    margin-left: var(--spacing-medium);
-  }
 }
